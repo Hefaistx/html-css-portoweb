@@ -430,6 +430,10 @@ article .icon{
     height: 2.5rem;
 }
 
+.p1 a{
+    cursor: pointer;
+}
+
 /* FOOTER SECTION */
 
 footer{

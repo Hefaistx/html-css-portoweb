@@ -60,11 +60,11 @@
             <img src="./assets/linkedin.png" 
             alt="My Linkedin Profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/nabil-ilyasa'"/>
+            onclick="window.open('https://linkedin.com/in/nabil-ilyasa', '_blank')"/>
             <img src="./assets/github.png" 
             alt="My Github Profile"
             class="icon"
-            onclick="location.href='https://github.com/Hefaistx'"/>
+            onclick="window.open('https://github.com/Hefaistx', '_blank')"/>
         </div>
     </div>
     </section>
@@ -207,7 +207,7 @@ backend systems and applications within a collaborative environment.
                 </div>
                 <h2 class="experience-sub-title project-title">Store API</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Hefaistx/store-api'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Hefaistx/store-api', '_blank')">Github</button>
                 </div>
                 <p class="desc-paragraph">An on-going project for a simple store system. Record customer's data and their purchase history. Made with Go and PostgreSQL.</p>
             </div>
@@ -217,7 +217,7 @@ backend systems and applications within a collaborative environment.
                 </div>
                 <h2 class="experience-sub-title project-title">ILed</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Hefaistx/iled-api'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="setTimeout(() => { window.open('https://github.com/Hefaistx/iled-api', '_blank'); }, 0);">Github</button>
                 </div>
                 <p class="desc-paragraph">A collaborative project for a scheduled weekly class meeting. Records instructor and student's data, schedule and record's meeting data, and generate meeting's attendance data. Made with clean architecture of Go and PostgreSQL.</p>
             </div>
@@ -227,7 +227,7 @@ backend systems and applications within a collaborative environment.
                 </div>
                 <h2 class="experience-sub-title project-title">Payment</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Hefaistx/payment-case-api'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="setTimeout(() => { window.open('https://github.com/Hefaistx/payment-case-api', '_blank'); }, 0);">Github</button>
                 </div>
                 <p class="desc-paragraph">An API for a simple payment system case. Transfer balances from customer to merchant. Logs the payment history. Made with clean architecture of Go and PostgreSQL.</p>
             </div>
@@ -237,7 +237,7 @@ backend systems and applications within a collaborative environment.
                 </div>
                 <h2 class="experience-sub-title project-title" id="calowry-title">Calowry</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Calowry/Cloud-Computing'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="setTimeout(() => { window.open('https://github.com/Calowry/Cloud-Computing', '_blank'); }, 0);">Github</button>
                 </div>
                 <p class="desc-paragraph">Bangkit Academy final project. Made an api for a mobile application for calories intake tracking. Made with NodeJs and Google Cloud SQL.</p>
             </div>
@@ -255,7 +255,8 @@ backend systems and applications within a collaborative environment.
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon linkedin-icon">
-                <p class="p1"><a href="https://linkedin.com/in/nabil-ilyasa">Nabil Ilyasa</a></p>
+                <p class="p1"><a href="https://linkedin.com/in/nabil-ilyasa" target="_blank" onclick="setTimeout(() => { window.open(this.href, '_blank'); }, 0); return false;"
+>Nabil Ilyasa</a></p>
             </div>
         </div>
     </section>
